@@ -6,33 +6,6 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 
 export default props => (
-  //<Navbar inverse fixedTop fluid collapseOnSelect>
-  //  <Navbar.Header>
-  //    <Navbar.Brand>
-  //      <Link to={'/'}>WebApplication1</Link>
-  //    </Navbar.Brand>
-  //    <Navbar.Toggle />
-  //  </Navbar.Header>
-  //  <Navbar.Collapse>
-  //    <Nav>
-  //      <LinkContainer to={'/pages'} exact>
-  //        <NavItem>
-  //          <Glyphicon glyph='th-list' /> Pages
-  //        </NavItem>
-  //      </LinkContainer>
-  //      <LinkContainer to={'/users'}>
-  //        <NavItem>
-  //          <Glyphicon glyph='user' /> Users
-  //        </NavItem>
-  //      </LinkContainer>
-  //      <LinkContainer to={'/settings'}>
-  //        <NavItem>
-  //          <Glyphicon glyph='cog' /> Settings
-  //        </NavItem>
-  //      </LinkContainer>
-  //    </Nav>
-  //  </Navbar.Collapse>
-  //</Navbar>
     <div>
         <Header />
         <Sidebar />
